@@ -31,6 +31,8 @@ function UserItemComp(props) {
 
       {completed ? "Completed" : "NotCompleted"}<br />
 
+
+
     </div>
   );
 }
