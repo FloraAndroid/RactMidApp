@@ -1,5 +1,30 @@
 .App {
-  text-align: center;
+  text-align: left;
+}
+.RightSection{
+  float:right;
+  width: 48%;
+}
+.LeftSection{
+  width: 48%;
+  float:left;
+}
+.Item.Completed{
+  border-color:green;
+}
+.Item.NonComplete{
+  border-color: red;
+}
+.Item.Task{
+  border-color: blueviolet;
+}
+.Item{
+  
+  border-width: 1px;
+  border-style: solid;
+  padding: 2px;
+  margin: 4px;
+  text-align: left;
 }
 
 .App-logo {
