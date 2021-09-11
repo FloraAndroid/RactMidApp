@@ -13,7 +13,8 @@ function TaskItemComp(props) {
     < div  className="Item Task" >
 
       Title : {task.title} <br/>
-      Completed : {task.completed?"True":"False"}
+      Completed : {task.completed?"True":"False"} <span></span>
+      {task.completed?'': <input type="button" value="Marks Completed"/>}
     </div >
   );
 }

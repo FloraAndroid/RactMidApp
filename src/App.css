@@ -6,7 +6,7 @@
   width: 48%;
 }
 .LeftSection{
-  width: 48%;
+  width: 40%;
   float:left;
 }
 .Item.Completed{
@@ -18,14 +18,24 @@
 .Item.Task{
   border-color: blueviolet;
 }
-.Item{
+.Item.Clicked{
+  background-color: orange;
+}
+.Item.OtherData{
+  background-color: antiquewhite;
+  border-radius: 10px;
+
+}
+.Item{ 
   
   border-width: 1px;
   border-style: solid;
-  padding: 2px;
+  padding: 10px;
   margin: 4px;
+  margin-top: 20px;
   text-align: left;
 }
+
 
 .App-logo {
   height: 40vmin;
